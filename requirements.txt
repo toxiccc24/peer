@@ -1,0 +1,37 @@
+# Core Python & Data
+python>=3.8
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Machine Learning & NLP
+torch>=1.10.0
+transformers>=4.12.0
+sentence-transformers>=2.0.0
+scikit-learn>=1.0.0
+nltk>=3.6.0
+spacy>=3.0.0
+gensim>=4.0.0
+
+# Backend & APIs
+flask>=2.0.0
+flask-cors>=3.0.0
+fastapi>=0.68.0
+uvicorn>=0.15.0
+requests>=2.26.0
+
+# Database
+sqlalchemy>=1.4.0
+psycopg2-binary>=2.9.0  # PostgreSQL (adjust if using SQLite/MySQL)
+
+# Frontend (if applicable)
+streamlit>=1.0.0  # If using Streamlit for UI
+
+# Utilities
+tqdm>=4.62.0
+python-dotenv>=0.19.0
+pyyaml>=5.4.0
+loguru>=0.5.0
+
+# PeerLearnAI-Specific (check repo for custom deps)
+# (If the repo has a setup.py or pyproject.toml, prioritize those dependencies)
